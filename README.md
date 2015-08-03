@@ -36,3 +36,8 @@ gulp.task('default', ['eslint']);
 
 - `minWarnings`, a number for the threshold.
 - `callbackFunction(eslintWarnings)`, a callback function for when the threshold is met. The argument `eslintWarnings` is the number of warnings found by ESLint.
+
+`afterErrors(minErrors, callbackFunction)`
+
+- `minErrors`, a number for the threshold.
+- `callbackFunction(eslintErrors)`, a callback function for when the threshold is met. The argument `eslintErrors` is the number of errors found by ESLint.
