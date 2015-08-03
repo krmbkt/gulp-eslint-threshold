@@ -1,6 +1,6 @@
 {
   "name": "gulp-eslint-threshold",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple gulp stream plugin for counting warnings from gulp-eslint and call a callback function when the number rises above a threshold you set.",
   "main": "index.js",
   "repository": {
